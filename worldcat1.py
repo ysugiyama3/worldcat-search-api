@@ -50,7 +50,7 @@ for oclc in fhand:
  
             print 'Total Lib Count: ', libcount	
         except:
-		    print 'Total Lib Count: ', libcount
+            print 'Total Lib Count: ', libcount
 
 
     conn.commit()
@@ -61,9 +61,9 @@ toplibraries = open('top5libraries.txt','w')
 print
 print "Top 5 Libraries:"
 for row in cur.execute(sqlstr):
-	toplibraries.write(str(row[0]))
-	toplibraries.write("\n")
-	print (row[0]), row[1], row[2]
+    toplibraries.write(str(row[0]))
+    toplibraries.write("\n")
+    print (row[0]), row[1], row[2]
 
 toplibraries.close()
 cur.close()            
