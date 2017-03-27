@@ -74,12 +74,7 @@ for oclc in fhand:
             print 'Total Lib Count: ', libcount	
         except:
             print 'Total Lib Count: ', libcount
-            # lib1count = "N"
-            # lib2count = "N"
-            # lib3count = "N"
-            # lib4count = "N"
-            # lib5count = "N"           
-        
+                   
         print lib1, lib1count
         print lib2, lib2count
         print lib3, lib3count
